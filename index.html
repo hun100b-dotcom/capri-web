@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover: 아이폰 노치/홈바 영역까지 배경이 채워지게(웹앱 느낌) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Capri 매매도구</title>
+    <meta name="description" content="Capri — 미국주식 분할 진입·익절/손절 계산기 (아이폰 웹앱)" />
+
+    <!-- PWA(홈 화면에 추가되는 웹앱) 설정 -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#0F172A" />
+
+    <!-- 아이폰 전용: 홈 화면에서 열 때 주소창 없이 전체화면으로 뜨게 한다 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- [v0.9.4] black-translucent 는 화면을 '상태바 밑까지' 끌어올려서, 안전영역 처리를
+         조금이라도 놓치면 상단 배너·탭이 노치에 가려 눌리지 않는다(실제로 그 사고가 났다).
+         default 로 두면 iOS 가 상태바 자리를 알아서 비워 준다 — 안전한 쪽을 택한다. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Capri" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="icon" href="./icons/icon-192.png" />
+    <script type="module" crossorigin src="./assets/index-GYGPDZ7k.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-Bh1tDfsg.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DaofcGWW.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
